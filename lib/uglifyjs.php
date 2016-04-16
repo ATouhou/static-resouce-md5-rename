@@ -4,6 +4,7 @@
  * https://github.com/makesites/uglifyjs-php
  *
  * Created by Makis Tracend (@tracend)
+ * Updated by bajian 160416
  * Distributed through [Makesites.org](http://makesites.org/)
  * Released under the [Apache License v2.0](http://makesites.org/licenses/APACHE-2.0)
  */
