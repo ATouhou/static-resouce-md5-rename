@@ -13,7 +13,7 @@ for ($i=0; $i <$count ; $i++) {
 	$rsa=substr(md5_file($filePath),0,5);
 
 	if ($rsa) {
-		$newName=$pathinfo['filename'].'-'.$rsa.'.'.$pathinfo['extension'];
+		$newName=$pathinfo['filename'].'_'.$rsa.'.'.$pathinfo['extension'];
 		copy($filePath,$targetPath.$newName);
 		echo $newName." complete \n";
 	}
